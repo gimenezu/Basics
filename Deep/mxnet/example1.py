@@ -60,10 +60,7 @@ for preds, i_batch, batch in mod.iter_predict(pred_iter):
     label = batch.label[0].asnumpy().astype(int)
     pred_label = preds[0].asnumpy().argmax(axis=1)
     correct_preds = np.sum(pred_label==label)
-    print i_batch, label, pred_label, correct_preds
+    print (i_batch, label, pred_label, correct_preds)
     total_correct_preds = total_correct_preds + correct_preds
 
 print('Validation accuracy: %2.2f' % (1.0*total_correct_preds/pred_count))
-
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
