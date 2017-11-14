@@ -1,4 +1,6 @@
 #https://github.com/juliensimon/aws/blob/master/mxnet/intro/firstexample.py
+#test
+
 import mxnet as mx
 import numpy as np
 import logging
