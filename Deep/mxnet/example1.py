@@ -63,5 +63,3 @@ for preds, i_batch, batch in mod.iter_predict(pred_iter):
 
 print('Validation accuracy: %2.2f' % (1.0*total_correct_preds/pred_count))
 
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
